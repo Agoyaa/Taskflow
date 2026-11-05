@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import { defineConfig } from 'vite'
 
 export default defineConfig({
+  base: '/Taskflow/',
   plugins: [react(), tailwindcss()],
   server: {
     proxy: {
